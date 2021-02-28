@@ -18,8 +18,8 @@ see: https://en.wikipedia.org/wiki/Payback_period ,https://xplaind.com/849768/pa
 ## Installation
 
 ```bash
-git clone https://github.com/quiko/payback_period-calculation.git
-cd ./payback_period-calculation
+git clone https://github.com/quiko/payback_period_calculation.git
+cd ./payback_period_calculation
 npm install
 npm start
 ```
