@@ -19,7 +19,7 @@ see: https://en.wikipedia.org/wiki/Payback_period ,https://xplaind.com/849768/pa
 
 ```bash
 git clone https://github.com/quiko/payback_period-calculation.git
-cd ./test
+cd ./payback_period-calculation
 npm install
 npm start
 ```
