@@ -1,4 +1,4 @@
-import { calculate_incremental_cashflow, calculate_cumulative_cashflow , calculate_payback_period} from './main';
+import { calculate_incremental_cashflow, calculate_cumulative_cashflow , calculate_payback_period} from './index';
 import data from './data';
 
 
