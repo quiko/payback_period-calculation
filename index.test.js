@@ -40,3 +40,9 @@ test('properly calculate cumulative cashflow', () => {
 test('properly compute payback period', () => {
     expect(calculate_payback_period(data,"12JXK5")).toBe(2.29)
 });
+test('properly compute payback period', () => {
+    expect(calculate_payback_period(data, "HT4AA2")).toBe("we do not have enough data to calculate the payback period");
+});
+test('properly compute payback period', () => {
+    expect(calculate_payback_period(data, 123)).toBe("this id does not exist");
+});
