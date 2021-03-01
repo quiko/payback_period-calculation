@@ -1,5 +1,4 @@
 export const calculate_incremental_cashflow = obj => {
-
     const incremental_cashflow_go = obj.revenue_go - obj.capex_go - obj.opex_go;
     const incremental_cashflow_nogo = obj.revenue_nogo - obj.capex_nogo - obj.opex_nogo;
     return {
@@ -8,6 +7,7 @@ export const calculate_incremental_cashflow = obj => {
         incremental_cashflow: incremental_cashflow_go - incremental_cashflow_nogo
     };
 }
+
 export const calculate_cumulative_cashflow = array => {
     let new_array = [];
     array.reduce((acc, curr) => {
@@ -21,8 +21,8 @@ export const calculate_cumulative_cashflow = array => {
     }, 0);
     return new_array;
 }
+
 export const calculate_payback_period = (data, id) => {
-    
        //exctract the investement metrics that belongs to the given id
         const investment_yearly_metrics = data.filter(item => item.investment_id === id);
         
